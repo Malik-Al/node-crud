@@ -1,4 +1,4 @@
-const {client} = require('./db')
+const {client} = require('../config/db')
 
 exports.create = async(phone_number, hash_number) => {
     try{

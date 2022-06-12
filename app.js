@@ -1,6 +1,6 @@
 const express = require('express');
-const {list} = require('./src/list')
-const {create} = require('./src/create')
+const {list} = require('./src/services/list')
+const {create} = require('./src/services/create')
 const app = express()
 const PORT = 3000
 
